@@ -35,8 +35,7 @@ type Txn = {
     confirmations: string;
 };
 
-// get Unix timestamp in seconds for Jan 1, 2021 12:00:00 AM EST
-const UNIX_TIMESTAMP_2021: number = 1609477200;
+// first block mined in 2021 on Ethereum 
 const block_2k21 = 11566426;
 
 // get Unix timestamp in seconds for Jan 1, 2022 12:00:00 AM EST
